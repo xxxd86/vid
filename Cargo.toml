@@ -1,0 +1,12 @@
+[package]
+name = "vid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.97"
+num_cpus = "1.16.0"
+rayon = "1.10.0"
+walkdir = "2.5.0"
+clap = { version = "4.0", features = ["derive"] }
+indicatif = "0.17"
